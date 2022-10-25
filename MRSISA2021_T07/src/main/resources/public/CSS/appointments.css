@@ -1,0 +1,25 @@
+#appstable{
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+	background-color: #fff;
+width: 90%
+  border-collapse: collapse;
+  text-align: left;
+
+}
+#appstable tr { 
+ border: 1px solid black;
+  border-width: 1px;
+}
+#appstable tr:nth-child(even){background-color: #f2f2f2;}
+
+#appstable tr:hover {background-color: #ddd;}
+
+#appstable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #a4dded;
+  color: white;
+}

@@ -1,0 +1,72 @@
+#form{
+	background-color: rgba(123, 123, 123, 0.8);
+    border-radius: 10px;
+	width: 78%;
+	float: bottom;
+	text-align: center;
+	margin-left: auto;
+	margin-top: 40px;
+  	margin-right: auto;
+}
+
+#tabela{
+	position: relative;
+	table-layout: fixed;
+	margin-left: auto;
+  	margin-right: auto;
+  	font-size: 30px;
+  	text-align: left;
+}
+
+.but{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-color: black;
+  }
+
+.back{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-color: black;
+  }
+
+.regPharBut{
+    float: inline-start;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin: 1mm;
+    border-color: black;
+  }
+
+  .backedtD{
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: grey;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-color: black;
+  }

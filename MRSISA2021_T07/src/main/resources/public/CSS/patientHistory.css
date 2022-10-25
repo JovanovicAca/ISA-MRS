@@ -1,0 +1,148 @@
+#history-mainDiv
+{
+    width: 75%;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    background-color: rgb(128, 128, 128,0.5);
+}
+#history-dugmici
+{
+    width: 18%;
+    height: 100%;
+    background-color: rgb(128, 128, 128,0.5);
+}
+.history-button
+{
+    width: 100%;
+    height: 60px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.history-button:hover
+{
+    background: #0b7dda;
+}
+#homeBtn
+{
+    margin-top: 510px;
+}
+#history-consult, #history-drugOrder
+{
+    display: none;
+}
+#history-content
+{
+    width: 82%;
+    height: 100%;
+    position: relative;
+    bottom: 100%;
+    left: 18%;
+}
+#history-consult-levo, #history-appointment-levo, #history-drugOrder-levo
+{
+    width: 50%;
+}
+#history-consult-box, #history-appointment-box, #history-drugOrder-box
+{
+    width: 80%;
+    height: 590px;
+    background-color: rgb(128, 128, 128,0.9);
+    overflow: scroll;
+	overflow-y:scroll;
+	overflow-x:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+#history-consult-desno, #history-appointment-desno, #history-drugOrder-desno
+{
+    width: 50%;
+    height: 750px;
+    position: relative;
+    bottom: 700px;
+    left: 48%;
+}
+#history-consult-desnoLevo, #history-appointment-desnoLevo, #history-drugOrder-desnoLevo
+{
+    margin-top: 60px;
+    width: 50%;
+    height: 100%;
+}
+#history-consult-desnoDesno, #history-appointment-desnoDesno, #history-drugOrder-desnoDesno
+{
+    margin-top: 60px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left:50%;
+    bottom: 108%;
+}
+.history-input
+{
+    width: 230px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+#history-prescribedDrugs
+{
+    width: 90%;
+    height: 310px;
+    background-color: rgb(128, 128, 128,0.9);
+    overflow: scroll;
+	overflow-y:scroll;
+	overflow-x:hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.appoHistory-item {
+    height: 33%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 10px;
+    text-align: center;
+    float: left;
+}
+.appo-appeared, .appo-selected, .appo-denied, .appo-deniedSelect, .appo-question, .appo-questionSelect
+{
+    height: 21%;
+    width: 95%;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 10px;
+    text-align: center;
+    float: left;
+}
+.appo-question
+{
+    background-color: rgb(255, 252, 47);
+}
+.appo-questionSelect
+{
+    background-color: rgba(182, 185, 18, 0.8);
+}
+.appo-denied
+{
+    background-color: rgba(255, 52, 52, 0.8);
+}
+.appo-deniedSelect
+{
+    background-color: rgba(151, 36, 36, 0.8);
+}
+.appo-selected
+{
+    background-color: rgba(49, 114, 58, 0.8);
+}
+.appo-appeared
+{
+    background-color: rgba(91, 214, 107, 0.8);
+}

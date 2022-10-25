@@ -1,0 +1,88 @@
+.wrapEditDrugs {
+    height: 90%;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(123, 123, 123, 0.8);
+    margin-top: 20px;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: auto;
+}
+
+#headline-main {
+    display: inline-block;
+}
+
+.table1-main-drug-wrap {
+    display: inline-block;
+    overflow: auto;
+}
+
+.table1-main-drug {
+    height: 300px;
+    overflow: auto;
+}
+
+.table1-main-drug-wrap table {
+    width: auto;
+    overflow: auto;
+}
+
+.table2-main-drug-wrap {
+    display: inline-block;
+    height: 300px;
+    overflow: auto;
+}
+
+.table2-main-drug {
+    height: 300px;
+    overflow: auto;
+}
+
+.table2-main-drug-wrap table {
+    width: 1000px;
+}
+
+#table1allDrugs th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+#table1allDrugs td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+#table2pharmaDrugs th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+#table2pharmaDrugs td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+.backedtD {
+    position: fixed;
+    left: 90%;
+    bottom: 0%;
+    height: 45px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

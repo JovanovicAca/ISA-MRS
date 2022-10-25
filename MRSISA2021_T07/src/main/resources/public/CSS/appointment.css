@@ -1,0 +1,104 @@
+#app-main-div {
+    height: 90%;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(123, 123, 123, 0.8);
+    margin-top: 20px;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.addbtn {
+	background-color: green;
+	color: white;
+}
+
+#request-div{
+	margin: auto;
+	float: center;
+    bottom: 0px;
+    width: 60%;
+    height: 20%;
+}
+
+#submit-btn{
+	background-color: green;
+	color: white;
+	width: 20%;
+	height: 20%;
+	font-size: 20;
+}
+
+
+.clrbtn{
+	background-color: red;
+	color: black;
+}
+
+#app-drugs-div{
+	float: left;
+	margin-left: 2%;
+	width: 40%;
+}
+
+#report-div{
+	float: right;
+	margin-right: 2%;
+	width: 40%;
+}
+
+#app-drugs-table{
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+	background-color: #fff;
+width: 90%
+  border-collapse: collapse;
+  text-align: left;
+
+}
+
+#app-presc-drugs{
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+	background-color: #fff;
+	width: 90%
+  border-collapse: collapse;
+  text-align: left;
+
+}
+#app-drugs-table tr { 
+ border: 1px solid black;
+  border-width: 1px;
+}
+#app-drugs-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#app-drugs-table tr:hover {background-color: #ddd;}
+
+#app-drugs-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #a4dded;
+  color: white;
+}
+
+#app-presc-drugs tr { 
+ border: 1px solid black;
+  border-width: 1px;
+}
+#app-presc-drugs tr:nth-child(even){background-color: #f2f2f2;}
+
+#app-presc-drugs tr:hover {background-color: #ddd;}
+
+#app-presc-drugs th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #a4dded;
+  color: white;
+}

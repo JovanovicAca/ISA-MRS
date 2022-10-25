@@ -1,0 +1,150 @@
+.tableWorkersWrap {
+    height: 500px;
+    overflow: auto;
+}
+
+.tableWorkersWrap table {
+    width: 85%;
+    vertical-align: middle;
+}
+
+#tableWorkers th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+#tableWorkers td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+#search-div {
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(123, 123, 123, 0.8);
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center {
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#dugmici {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    float: center;
+    width: 30%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+#stocic {
+    table-layout: fixed;
+}
+
+.redovi tr {
+    height: 45px;
+    width: 160px;
+}
+
+#btn {
+    float: center;
+    width: 30%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+#btn:hover {
+    background: #0b7dda;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#h1-search {
+    margin: 0;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#search-table {
+    position: relative;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: left;
+}
+
+#p1,
+p2 {
+    float: left;
+}
+
+#search-results {
+    background-color: rgba(123, 123, 123, 0.8);
+    border-radius: 10px;
+    width: 78%;
+    float: bottom;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-right: auto;
+}

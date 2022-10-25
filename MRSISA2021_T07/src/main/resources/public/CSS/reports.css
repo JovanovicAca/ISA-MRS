@@ -1,0 +1,124 @@
+.main-wrapper {
+    height: 100%;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(123, 123, 123, 0.8);
+    margin-top: 20px;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: auto;
+}
+
+#grade-headline {
+    align-self: center;
+}
+
+
+/*
+////LEFT SIDE
+*/
+
+.left-side {
+    float: left;
+    margin-left: 2%;
+}
+
+.chart1 {
+    height: 400px;
+    width: 600px;
+}
+
+.table-grade-derma-wrap {
+    height: 400px;
+    overflow: auto;
+}
+
+.table-grade-derma-wrap table {
+    width: 500px;
+}
+
+#table-grade-derma th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+#table-grade-derma td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+
+/*
+////RIGHT SIDE
+*/
+
+.right-side {
+    float: right;
+    margin-right: 2%;
+}
+
+.chart2 {
+    height: 400px;
+    width: 600px;
+}
+
+.table-grade-pharma-wrap {
+    height: 400px;
+    overflow: auto;
+}
+
+.table-grade-pharma-wrap table {
+    width: 500px;
+}
+
+#table-grade-pharma th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+#table-grade-pharma td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+
+/*
+////BOTTOM
+*/
+
+.bottom {
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.chart3 {
+    height: 400px;
+    width: 1100px;
+}
+
+.back-button-orders {
+    position: fixed;
+    top: 155%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid rgb(204, 201, 201);
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

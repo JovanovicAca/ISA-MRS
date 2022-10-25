@@ -1,0 +1,212 @@
+#vp-main
+{
+	height: 750px;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+    background-color: rgba(90, 90, 90, 0.5);
+    border-radius: 20px;
+}
+
+#vp-levi
+{
+	border-radius: 20px;
+	height: 100%;
+	width:25%;
+	background-color: rgba(90, 90, 90, 0.5);
+}
+
+#vp-profil
+{
+	width:100%;
+	height: 30%;
+	background-color: rgba(90, 90, 90, 1);
+}
+
+.vp-profileBtn, .vp-homeBtn, .vp-passBtn, .vp-statusBtn, .vp-subBtn
+{
+  width: 100%;
+  height: 60px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.vp-homeBtn
+{
+	margin-top: 67.5%;
+	border-radius: 0 0 0 20px;
+}
+
+.vp-profileBtn:hover, .vp-homeBtn:hover, .vp-passBtn:hover, .vp-applyBtn:hover , .vp-cancelBtn:hover, .vp-statusBtn:hover
+{
+	background: #0b7dda;
+}
+
+#vp-profileImg
+{
+	width: 40%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: center;
+}
+
+#vp-name
+{
+	margin-top: -30px;
+}
+
+#vp-desni
+{
+	height: 750px;
+	width :75%;
+	position: relative;
+	bottom: 103%;
+	left: 25%;
+}
+
+#vp-profil-info
+{
+	height: 80%;
+	width:100%;
+}
+
+.vp-applyBtn, .vp-cancelBtn
+{
+  width: 20%;
+  height: 50px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+  position: relative;
+  top: -105%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#vp-glavniNaslov
+{
+	margin-top: 60px;
+}
+
+#vp-profil-info-levi
+{
+	width: 50%;
+	height: 90%;
+	margin-top: 50px;
+	
+}
+
+#vp-profil-info-desni
+{
+	width: 50%;
+	height: 90%;
+	position: relative;
+	bottom: 93%;
+	left: 50%;
+	
+}
+
+#vp-infoBar
+{
+	height: 50px;
+	width: 350px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+}
+
+#vp-naslov
+{
+	margin-top: 20px;
+	margin-left: -200px;
+	margin-bottom: 5px;
+}
+#vp-adresa
+{
+	margin-top: 20px;
+	margin-left: -270px;
+	margin-bottom: 5px;
+}
+#vp-mejl
+{
+	margin-top: 20px;
+	margin-left: -290px;
+	margin-bottom: 5px;
+}
+#vp-grad
+{
+	margin-top: 20px;
+	margin-left: -295px;
+	margin-bottom: 5px;
+}
+#vp-drzava
+{
+	margin-top: 20px;
+	margin-left: -270px;
+	margin-bottom: 5px;
+}
+#vp-fon
+{
+	margin-top: 20px;
+	margin-left: -190px;
+	margin-bottom: 5px;
+}
+
+#vp-sifra
+{
+	width: 65%;
+	height: 70%;
+	position: relative;
+	left: 30%;
+	top: -98%;
+	display: none;
+}
+
+#vp-stariPass
+{
+	margin-top: 50px;
+}
+
+
+.vp-changeBtn
+{
+  width: 28%;
+  height: 60px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+  position: relative;
+  top: 25%;
+  left:-34%;
+}
+
+.vp-proferaPass
+{
+	margin-left: 250px;
+}
+
+.vp-changeBtn:hover
+{
+	background: #0b7dda;
+}
+
+
+
+
+
+
+
+
+
+

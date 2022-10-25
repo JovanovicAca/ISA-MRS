@@ -1,0 +1,38 @@
+#iss-main-div {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(123, 123, 123, 0.8);
+    margin-top: 20px;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#resd-drugs-table{
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+	background-color: #fff;
+width: 90%
+  border-collapse: collapse;
+  text-align: left;
+
+}
+#resd-drugs-table tr { 
+ border: 1px solid black;
+  border-width: 1px;
+}
+#resd-drugs-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#resd-drugs-table tr:hover {background-color: #ddd;}
+
+#resd-drugs-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #a4dded;
+  color: white;
+}

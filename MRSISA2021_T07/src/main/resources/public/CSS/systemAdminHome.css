@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Snell Roundhand, cursive;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    margin-bottom: 150px;
+}
+
+#emp-home-mainSYS {
+    margin-top : 200px;
+    height: 110%;
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(123, 123, 123, 0.8);
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sys-home-item {
+    height: 15%;
+    width: 47%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    margin: 15px;
+    border: 0px;
+    text-align: center;
+    float: left;
+}
+
+.sys-home-item-c2{
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: center;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.welcome {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header-options {
+    float: right;
+}

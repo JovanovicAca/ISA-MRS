@@ -1,0 +1,102 @@
+#search-div{
+	height: 80%;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(123, 123, 123, 0.8);
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.searchBoxEdge{
+    border-radius: 10px;
+	height:60%;
+	width:90%;
+	background-color: #555;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.searchBoxInfo{
+	position:relative;
+	top:10px;
+    border-radius: 20px;
+	height:95%;
+	width:98.2%;
+	background-color: rgba(123, 123, 123, 0.8);
+	margin-left:13px;
+	margin-right:auto;
+	overflow: scroll;
+	overflow-y:srcoll;
+	overflow-x:hidden;
+}
+
+
+#emptySearch
+{
+	position: relative;
+	top: 150px;
+	padding-left: 20px;
+}
+
+.searchPharma-item {
+    height: 27%;
+    width: 94%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+}
+
+.pharmaSearch-src
+{
+	width: 80%;
+	height: 40px;
+}
+.pharmaSearch-src::placeholder
+{
+	font-size:15px;
+}
+
+.searchPharma-item:hover{
+	background-color: #d4d4d4;
+}
+
+.searchPharma-image
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: center;
+}
+
+.searchPharma-text{
+	text-align: left;
+	margin-left: 18%;
+}
+
+#homeBtnSearch
+{
+  float: center;
+  width: 210px;
+  height: 60px;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-top:20px;
+}
+#homeBtnSearch:hover{
+	background: #0b7dda;
+}

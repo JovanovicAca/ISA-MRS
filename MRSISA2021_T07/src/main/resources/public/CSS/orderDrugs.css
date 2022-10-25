@@ -1,0 +1,119 @@
+.main-wrap-order {
+    height: 900px;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(123, 123, 123, 0.8);
+    margin-top: 20px;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/**/
+
+.wrap1 {
+    float: left;
+    margin-top: 2px;
+    margin-left: 2%;
+}
+
+.table1-main-order-wrap {
+    height: 500px;
+    overflow: auto;
+}
+
+.table1-main-order-wrap table {
+    width: 700px;
+}
+
+#table1orderDrugs th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+#table1orderDrugs td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+.search-header-left {
+    display: flex;
+    padding-left: 200px;
+}
+
+
+/**/
+
+.right-wrap {
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.table2-main-order {
+    height: 500px;
+    overflow: auto;
+}
+
+.table2-main-order table {
+    width: 500px;
+}
+
+#headline-purchase-order {
+    align-self: center;
+}
+
+#table2orderDrugs th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+#table2orderDrugs td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+.table2-main-order-wrap {
+    height: 300px;
+    overflow: auto;
+}
+
+.back-finish-button {
+    position: fixed;
+    bottom: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    border: 3px solid rgb(204, 201, 201);
+}
+
+#button-finish {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#button-back {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

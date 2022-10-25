@@ -1,0 +1,222 @@
+.pharma-wrapper {
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(240, 233, 233, 0.8);
+    margin: auto;
+}
+
+.pharma-info {
+    width: 650px;
+}
+
+#table-pharma-info {
+    column-gap: 40px;
+}
+
+.map-root {
+    height: 500px;
+    width: 800px;
+}
+
+#edit-pharma-button {
+    width: 120px;
+}
+
+#h1-profile-pharma {
+    align-self: center;
+}
+
+.pharma-wrapper-perinfo {
+    align-content: center;
+}
+
+
+/*
+=====
+DEPENDENCES
+=====
+*/
+
+.r-link {
+    display: var(--rLinkDisplay, inline-flex) !important;
+}
+
+.r-link[href] {
+    color: var(--rLinkColor) !important;
+    text-decoration: var(--rLinkTextDecoration, none) !important;
+}
+
+
+/*
+  =====
+  CORE STYLES
+  =====
+  */
+
+.menu {
+    --rLinkColor: var(--menuLinkColor, currentColor);
+}
+
+.menu__link-pharmainfo {
+    display: var(--menuLinkDisplay, block);
+}
+
+
+/* 
+  focus state 
+  */
+
+.menu__link-pharmainfo:focus {
+    outline: var(--menuLinkOutlineWidth, 2px) solid var(--menuLinkOutlineColor, currentColor);
+    outline-offset: var(--menuLinkOutlineOffset);
+}
+
+
+/* 
+  fading siblings
+  */
+
+.menu:hover .menu__link:not(:hover) {
+    --rLinkColor: var(--menuLinkColorUnactive, rgba(22, 22, 22, .35));
+}
+
+
+/*
+  =====
+  PRESENTATION STYLES
+  =====
+  */
+
+.menu {
+    background-color: var(--menuBackgroundColor, #f0f0f0);
+    box-shadow: var(--menuBoxShadow, 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24));
+}
+
+.menu__list-pharmainfo {
+    display: flex;
+}
+
+.menu__link-pharmainfo {
+    padding: var(--menuLinkPadding, 1.5rem 2.5rem);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* 
+  =====
+  TEXT UNDERLINED
+  =====
+  */
+
+.text-underlined {
+    position: relative;
+    overflow: hidden;
+    will-change: color;
+    transition: color .25s ease-out;
+}
+
+.text-underlined::before {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--textUnderlinedLineColor, currentColor);
+    will-change: width;
+    transition: width .1s ease-out;
+    position: absolute;
+    bottom: 0;
+}
+
+.text-underlined::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--textUnderlinedLineColor, currentColor);
+    will-change: width;
+    transition: width .1s ease-out;
+    position: absolute;
+    bottom: 0;
+}
+
+.text-underlined::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-underlined::after {
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.text-underlined:hover::before {
+    width: 100%;
+    transition-duration: .2s;
+}
+
+.text-underlined:hover::after {
+    width: 100%;
+    transition-duration: .2s;
+}
+
+
+/*
+  =====
+  DEMO
+  =====
+  */
+
+.page-pharmainfo {
+    box-sizing: border-box;
+    max-width: 750px;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    margin: auto;
+}
+
+.page__menu-pharmainfo:nth-child(n+2) {
+    margin-top: 3rem;
+}
+
+#pharma-wrapper-perinfo {
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(123, 123, 123, 0.8);
+    margin: auto;
+}
+
+#h1-profile-pharma {
+    margin: 0;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#profile-table-pharma {
+    position: relative;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: left;
+}
+
+#password-table-pharma {
+    position: relative;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: left;
+}

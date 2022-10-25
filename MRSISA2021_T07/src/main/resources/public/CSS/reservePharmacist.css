@@ -1,0 +1,265 @@
+#reservePharma-div
+{
+	height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(123, 123, 123, 0.5);
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#reserve-dugmici
+{
+	width: 17%;
+	height: 100%;
+	background-color: rgba(123, 123, 123, 0.7);
+}
+#reserve-desno
+{
+	width: 83%;
+	height: 100%;
+	position: relative;
+	left: 17%;
+	bottom: 100%;
+}
+
+.rezerveConsultBtn, .cancelConsultBtn, .rezerveAppoBtn, .cancelAppoBtn, .viewCalendar, .reserve-homeBtn
+{
+  width: 100%;
+  height: 60px;
+  margin-left: -4px;
+  margin-right: -4px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.rezerveConsultBtn:hover , .cancelConsultBtn:hover , .rezerveAppoBtn:hover , .cancelAppoBtn:hover , .viewCalendar:hover , .reserve-homeBtn:hover, .reserve-newConsultationBtn:hover , .cancel-consultBtn:hover
+{
+	background: #0b7dda;
+}
+
+.reserve-homeBtn
+{
+	margin-top: 474px;
+}
+
+#reserve-konsultacija, #reserve-cancelKonsultacija, #reserve-appointment, #reserve-cancelAppointment, #reserve-kalendar
+{
+	width: 100%;
+	height: 100%;
+}
+#reserve-cancelKonsultacija, #reserve-appointment, #reserve-cancelAppointment, #reserve-kalendar
+{
+	display: none;
+}
+#reserve-konsultacijaLevo, #reserve-kalendar, #reserve-cancelAppointmentLevo, #reserve-appointmentLevo, #reserve-cancelKonsultacijaLevo 
+{
+	width: 50%;
+	height: 100%;
+}
+
+#reserve-konsultacijaDesno, #reserve-cancelKonsultacijaDesno, #reserve-appointmentDesno, #reserve-cancelAppointmentDesno
+{
+	width: 50%;
+	height: 100%;
+	position: relative;
+	left:47%;
+	bottom: 100%;
+}
+.reserve-datum
+{
+	width: 250px;
+	height: 45px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.reserve-sati
+{
+	width: 115px;
+	height: 40px;
+	margin-left: 8px;
+	margin-right: 8px;
+	border-radius: 10px;
+}
+#reserve-pharmaPrikaz
+{
+	width: 75%;
+	height: 420px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: scroll;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background-color: rgba(123, 123, 123, 0.7);
+}
+.reserve-pharmaSearchInput
+{
+	width: 410px;
+	height: 45px;
+	border-radius: 10px;
+}
+#reserve-pharmacistPrikaz
+{
+	width: 80%;
+	height: 550px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: scroll;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background-color: rgba(123, 123, 123, 0.7);
+}
+.reserve-newConsultationBtn
+{
+	width: 280px;
+	height: 60px;
+	margin-top: 30px;
+	  background: #2196F3;
+	  color: white;
+	  font-size: 17px;
+	  border: 1px solid grey;
+	  cursor: pointer;
+}
+.reserveClick-item:hover
+{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.reserveClick-item,
+.pharmacistItem01
+{
+    height: 110px;
+    width: 93%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 10px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+}
+.reserveClick-item1,
+.pharmacistItem01-selected
+{
+    height: 110px;
+    width: 93%;
+    background-color: rgba(123, 123, 123, 0.7);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 10px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+}
+#prikazAktuelnihKonsultacija
+{
+	width: 80%;
+	height: 80%;
+	background-color: rgba(123, 123, 123, 0.7);
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: scroll;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+#reserve-cancelKonsultacijaDesnoLevi, #reserve-cancelKonsultacijaDesnoDesni, #reserve-appointmentDesnoLevi ,#reserve-appointmentDesnoDesni
+{
+	margin-top: 50px;
+	width: 50%;
+	height: 80%;
+}
+#reserve-cancelKonsultacijaDesnoDesni, #reserve-appointmentDesnoDesni
+{
+	position: relative;
+	bottom: 86.2%;
+	left: 50%;
+}
+.consult-input
+{
+	width : 230px;
+	height: 45px;
+	border-radius: 10px;
+}
+.cancel-consultBtn
+{
+	width: 270px;
+	height: 55px;
+	position: relative;
+	top: -100%;
+	background: #2196F3;
+	  color: white;
+	  font-size: 17px;
+	  border: 1px solid grey;
+	  cursor: pointer;
+}
+
+#reserve-appoBox
+{
+	width : 75%;
+	height: 72%;
+	margin-top : 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(123, 123, 123, 0.7);
+	overflow: scroll;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+.appointmentClick-item
+{
+    height: 22%;
+    width: 93%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 10px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+}
+.appointmentClick-item:hover
+{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.resAppo-image
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: center;
+}
+.appointmentClick2-item
+{
+    height: 22%;
+    width: 93%;
+    background-color: #999;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 10px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+}
+
+
+

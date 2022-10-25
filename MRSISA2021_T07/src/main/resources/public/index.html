@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <link rel="stylesheet" href="CSS/index.css" type="text/css">
+    <title>MRS-ISA Application</title>
+</head>
+
+<body>
+
+    <div id="main-div">
+        <router-view></router-view>
+    </div>
+    <script src="JS/main.min.js"></script>
+    <script src="JS/vue.js"></script>
+    <script src="JS/vue-router.js"></script>
+    <script src="JS/vuejs-datepicker.min.js"></script>
+    <script src="JS/moment.min.js"></script>
+    <script src="JS/axios.js"></script>
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/ol.js"></script>
+    <script src="JS/index.umd.js"></script>
+    <script src="JS/ol.js.map"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script src="https://unpkg.com/vue-chartjs/dist/vue-chartjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="APP/profile.js"></script>
+    <script src="APP/firstLogin.js"></script>
+    <script src="APP/workingCalendar.js"></script>
+    <script src="APP/employeeHome.js"></script>
+    <script src="APP/appointment.js"></script>
+    <script src="APP/newAppointment.js"></script>
+    <script src="APP/registerAdmin.js"></script>
+    <script src="APP/registerPharmacy.js"></script>
+    <script src="APP/regPharmacyAdmin.js"></script>
+    <script src="APP/registerDermatologist.js"></script>
+    <script src="APP/registerSupplier.js"></script>
+    <script src="APP/addDrug.js"></script>
+    <script src="APP/logout.js"></script>
+    <script src="APP/home.js"></script>
+    <script src="APP/emailVerification.js"></script>
+    <script src="APP/registration.js"></script>
+    <script src="APP/pharmaAdminHome.js"></script>
+    <script src="APP/systemAdminHome.js"></script>
+    <script src="APP/changePharmacyProfile.js"></script>
+    <script src="APP/patientHome.js"></script>
+    <script src="APP/pharmacySearch.js"></script>
+    <script src="APP/employeeGrades.js"></script>
+    <script src="APP/reservePharmacist.js"></script>
+    <script src="APP/newAppointmentDerma.js"></script>
+    <script src="APP/editDrugsPharma.js"></script>
+    <script src="APP/registerPharmacist.js"></script>
+    <script src="APP/cancelConsultation.js"></script>
+    <script src="APP/rateEmployee.js"></script>
+    <script src="APP/supplierHome.js"></script>
+    <script src="APP/supplyProfile.js"></script>
+    <script src="APP/supplierOffers.js"></script>
+    <script src="APP/supplierAccept.js"></script>
+    <script src="APP/supplierOffer.js"></script>
+    <script src="APP/subscribe.js"></script>
+    <script src="APP/pricelist.js"></script>
+    <script src="APP/appointments.js"></script>
+    <script src="APP/viewProfile.js"></script>
+    <script src="APP/orderDrugs.js"></script>
+    <script src="APP/patientHistory.js"></script>
+    <script src="APP/patientSubscriptions.js"></script>
+    <script src="APP/patientMedication.js"></script>
+    <script src="APP/writeComplaint.js"></script>
+    <script src="APP/issueing.js"></script>
+    <script src="APP/patientMedication.js "></script>
+    <script src="APP/orderDrugsHome.js "></script>
+    <script src="APP/madeOrders.js "></script>
+    <script src="APP/acceptOrder.js"></script>
+    <script src="APP/absenceApprove.js"></script>
+    <script src="APP/promotion.js"></script>
+    <script src="APP/editDrugsHome.js"></script>
+    <script src="APP/addRank.js"></script>
+    <script src="APP/qr.js"></script>
+    <script src="APP/adminReply.js"></script>
+    <script src="APP/lineChart.js"></script>
+    <script src="APP/reports.js"></script>
+    <script src="APP/registrationDermaPharma.js"></script>
+    <script src="APP/inquiry"></script>
+    <script src="APP/app.js "></script>
+    <style>
+        @import "https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css ";
+        @import "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css";
+        @import 'CSS/home.css';
+        @import 'CSS/profile.css';
+        @import 'CSS/registration.css';
+        @import 'CSS/workingCalendar.css';
+        @import 'CSS/employeeHome.css';
+        @import 'JS/main.min.css';
+        @import 'CSS/newAppointment.css';
+        @import 'CSS/appointment.css';
+        @import 'CSS/patientHome.css';
+        @import 'CSS/reservePharmacist.css';
+        @import 'CSS/pharmacySearch.css';
+        @import 'CSS/systemAdminHome.css';
+        @import 'CSS/employeeGrades.css';
+        @import 'CSS/emailVerification.css';
+        @import 'CSS/newAppointmentDerma.css';
+        @import 'CSS/editDrugsPharma.css';
+        @import 'CSS/adminregistrations.css';
+        @import 'CSS/cancelConsultation.css';
+        @import 'CSS/rateEmployee.css';
+        @import 'CSS/pricelist.css';
+        @import 'CSS/viewProfile.css';
+        @import 'CSS/patientMedication.css';
+        @import 'CSS/appointments.css';
+        @import 'CSS/orderDrugs.css';
+        @import 'CSS/subscribe.css';
+        @import 'CSS/complaint.css';
+        @import 'CSS/firstLogin.css';
+        @import "https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css";
+        @import "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css";
+        @import "https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css ";
+        @import "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css ";
+        @import "https://cdn.syncfusion.com/ej2/material.css ";
+        @import "https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css";
+        @import "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css";
+        @import "libs/cute-alert/style.css";
+        @import 'CSS/issueing.css';
+        @import 'CSS/acceptOrder.css';
+        @import 'CSS/absenceApprove.css';
+        @import 'CSS/orderDrugsHome.css';
+        @import 'CSS/promotion.css';
+        @import 'CSS/patientHistory.css';
+        @import 'CSS/changePharmacyProfile.css';
+        @import 'CSS/madeOrders.css';
+        @import 'CSS/reports.css';
+        @import 'CSS/registerDermatologist.css';
+        @import 'CSS/registrationDermaPharma.css';
+        @import 'CSS/tableButton.css';
+        @import 'CSS/Inquiry.css'
+    </style>
+</body>
+
+</html>
